@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('window.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.taskbar{
+	position: absolute;
+	bottom: 0;
+	width:100% ;
+	display: flex;
+	justify-content: center;
+	background-color:#f3f3f3 ;
+	z-index: 11 0;
+
+}
+.startmenu{
+	position: absolute;
+	/*bottom: 40px;*/
+	bottom:-650px;
+	width:100% ;
+	text-align: center;
+	transition: all 0.10s ease-in;
+}
+.startmenu img{
+	border-radius: 10px;
+}
+.right{
+	right: 0;
+	position: absolute;
+	justify-self: self-end;
+}
+.icons{
+	font-family: calibri;
+	color: white;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+
+ 
+}
+
+.flex-container > div {
+  background-color:none;
+  margin: 5px;
+  padding: 5px;
+   flex-direction:column;
+}
