@@ -1,9 +1,6 @@
 # Windows11-clone
 I developed a Windows11 clone using HTML,CSS and Javascript
 
-# Windows 11 Clone
-
-![Project Logo](path/to/logo.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
